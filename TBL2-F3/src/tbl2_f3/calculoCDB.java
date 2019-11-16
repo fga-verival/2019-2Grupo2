@@ -9,7 +9,7 @@ public class calculoCDB {
 	public calculoCDB(int dias,float capitalInicial,float juros) {
 		this.dias = dias;
 		this.capitalInicial = capitalInicial;
-		this.juros = juros;
+		this.juros = juros/100;
 		
 		if(dias <= 180) {
 			this.IR = 22.5f/100f;
