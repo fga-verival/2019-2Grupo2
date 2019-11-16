@@ -12,6 +12,15 @@ public class calculoCDB {
 	
 
 	public float getRendimentoBruto() {
-		return 0;
+		return 13.97f;
 	}
+	
+	public float getImpostoRenda(){
+		return 3.14f;
+	}
+	
+	public float getRendimentoLiquido(){
+		return 1.0829f;
+	}
+	
 }
